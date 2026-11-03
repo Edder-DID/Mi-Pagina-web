@@ -1,18 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segusa Desing</title>
-    <link rel="stylesheet" href="Style.css">
-    <script src="script.js" defer></script>
+    <title>Tu Nombre — Tu Profesión</title>
+    <!-- Google Fonts para una tipografía sobria y moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+    <!-- Navegación Minimalista -->
+    <header class="navbar">
+        <div class="logo">Tu Nombre</div>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto" class="btn-contacto">Contacto</a>
+        </nav>
+    </header>
 
+    <!-- Sección Principal (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="tag">Hola, mi nombre es</span>
+                <h1>Tu Nombre</h1>
+                <h2>Tu Profesión u Oficio</h2>
+                <p class="especialidad">Especialista en <strong>Tu Especialidad</strong>. Ayudo a transformar ideas en soluciones profesionales y eficientes.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">Trabajemos juntos</a>
+                    <a href="#servicios" class="btn-secondary">Ver servicios</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/tu-foto.jpg" alt="Foto de Tu Nombre">
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h3>Servicios</h3>
+            <p class="section-subtitle">Lo que puedo ofrecer para potenciar tus proyectos.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h4>Nombre del Servicio 1</h4>
+                    <p>Breve descripción de lo que incluye este servicio y el valor que aporta a tus clientes o empresa.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h4>Nombre del Servicio 2</h4>
+                    <p>Breve descripción de tu segundo servicio enfocado en resolver una necesidad específica.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h4>Nombre del Servicio 3</h4>
+                    <p>Breve descripción de tu tercer servicio o área de consultoría profesional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container text-center">
+            <h3>¿Hablamos?</h3>
+            <p>Estoy disponible para nuevos proyectos y colaboraciones profesionales.</p>
+            <a href="mailto:tu-correo@email.com" class="btn-primary">Enviar un correo</a>
+        </div>
+    </section>
 
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
+</html>
