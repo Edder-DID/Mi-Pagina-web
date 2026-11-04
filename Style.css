@@ -49,10 +49,11 @@ body {
     align-items: center;
     width: 100%;
     padding: 20px;
+    margin: 0px;
 }
 
 .Mi-logo {
-    width: 400px;
+    width: auto;
     height: 180px;
     margin: 0px;
     object-fit: contain;
