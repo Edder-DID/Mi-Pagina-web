@@ -44,7 +44,8 @@ body {
 }
 
 .logo-container {
-    width: 100%;
+    width: 165%;
+    height: auto;
     padding: 20px;
     margin: 0px;
 }
