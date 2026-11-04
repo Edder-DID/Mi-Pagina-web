@@ -41,23 +41,25 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-.Mi-logo{
-    width: 165px;            
-    height: auto;            
-    object-fit: cover;       
-    border-radius: 16px;     
-    display: block;           
-    margin-bottom: 1rem;     
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.Mi-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 25px;
+    display: block;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
 }
 
-.Mi-logo:hover{
-     transform: scale(1.1);
+.Mi-logo:hover {
+    transform: scale(1.05);
 }
-
-img.Mi-logo {
-    border-radius: 30px !important;
-    overflow: hidden;
-}
-
