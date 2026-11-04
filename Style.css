@@ -53,8 +53,8 @@ body {
 }
 
 .Mi-logo {
-    width: auto;
-    height: 180px;
+    width: 165px;
+    height: auto;
     margin: 0px;
     object-fit: contain;
     border-radius: 25px;
