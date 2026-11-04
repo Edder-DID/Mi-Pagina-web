@@ -63,3 +63,10 @@ body {
 .Mi-logo:hover {
     transform: scale(1.05);
 }
+
+.hero text{
+text-align: left;
+
+}
+
+
