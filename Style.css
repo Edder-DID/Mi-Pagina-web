@@ -34,28 +34,31 @@ body {
 
 /* Navbar */
 .navbar {
-    
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align:left;
-    padding: 1.5rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    widht:100%;
+    background-color: var(--card-bg);
+    padding: 0.5rem 2rem;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo-container {
-    width: 165%;
+    width: auto;
     height: auto;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
 }
 
 .Mi-logo {
     width: 165px;
     height: auto;
+    display: block;
     margin: 0px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 0;
     transition: transform 0.3s ease;
 }
 
