@@ -73,4 +73,14 @@ body {
 
 }
 
+/* Contenedor y estilo de la imagen de Kowalski en círculo */
+.hero-image img {
+    width: 200px;           /* Ajusta el tamaño de la imagen circular */
+    height: 200px;          /* Debe medir lo mismo que el ancho para que sea un círculo perfecto */
+    object-fit: cover;      /* Hace zoom en la imagen para rellenar el círculo sin deformarla */
+    object-position: top;   /* Enfoca la parte superior (el rostro del pingüino) */
+    border-radius: 50%;     /* Convierte el cuadrado en un círculo exacto */
+    border: 4px solid var(--card-bg); /* Opcional: un borde elegante alrededor */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil estilo Facebook */
+}
 
